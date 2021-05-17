@@ -507,3 +507,9 @@ const tip = bill >= 50 && bill <= 300 ? bill * (15 / 100) : bill * (20 / 100);
 console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}.`);
 
 */
+
+let hasDrivingLicense = false;
+const passTest = true;
+
+if(passTest) hasDrivingLicens = true;
+if(hasDrivingLicense) console.log('I can drive now!!');
