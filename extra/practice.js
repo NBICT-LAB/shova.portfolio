@@ -508,6 +508,8 @@ console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bil
 
 */
 
+'use strict';
+
 let hasDrivingLicense = false;
 const passTest = true;
 
