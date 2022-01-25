@@ -464,7 +464,7 @@ section .title::after{
 }
 }
  .gallery-lightboxes .image-lightbox .image-lightbox-wrapper .close:before {
-     content: '';
+     content: 'Close';
      display: block;
      width: 10px;
      height: 2px;
@@ -477,16 +477,16 @@ section .title::after{
      transform: rotate(-45deg);
 }
  .gallery-lightboxes .image-lightbox .image-lightbox-wrapper .close:after {
-     content: '';
+     content: 'Close';
      display: block;
      width: 10px;
-     height: 2px;
+     height: 0px;
      background: #fff;
      margin: 0;
      position: absolute;
      top: 50%;
      left: 50%;
-     margin: -1px 0 0 -5px;
+     margin: -5px 0 0 -15px;
      transform: rotate(45deg);
 }
  .gallery-lightboxes .image-lightbox .image-lightbox-wrapper .arrow-left {
